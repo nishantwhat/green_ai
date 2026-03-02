@@ -31,6 +31,7 @@ Python
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 (Note: If you do this, the INT8 Quantization script will fail unless you implement a specialized GPU quantization backend like NVIDIA TensorRT).
+```
 🚀 How to Run the Pipeline
 
 1. Install Dependencies
