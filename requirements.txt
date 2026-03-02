@@ -1,0 +1,23 @@
+# requirements.txt
+# PyTorch for Windows with CUDA (NVIDIA GPU Support)
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch
+torchvision
+torchaudio
+
+# Hugging Face ecosystem
+transformers
+datasets
+
+# Data manipulation and metrics
+pandas
+numpy
+scikit-learn
+
+# Green AI Energy Tracking
+codecarbon
+
+# Visualization
+matplotlib
+seaborn
+umap-learn
